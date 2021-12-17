@@ -15,7 +15,7 @@ for i in string:
 			cachedChars.append(i)
 			charCache[i]=open(f'assets/{i}.txt', 'r').read().split("\n")
 		except:
-			print("Sorry, but a filesysem error occurred(most likely that character isnt in /toilet2/assets, so if you want you can just make asciiart of it and put it in there as {character}.txt)")
+			print("Sorry, but a filesysem error occurred(most likely that character isnt in /textToAscii/assets, so if you want you can just make asciiart of it and put it in there as {character}.txt)")
 			print(f'\nNONEXISTANT FILE ERROR: FILE {i}.txt DOES NOT EXIST IN /textToAscii/assets')
 			exit(1)
 dispcache,display=[[],[]]
