@@ -2,6 +2,6 @@ while :
 do
 	clear
 	time=$(date "+%T")
-	python toilet2.py $time
+	python t2a.py -t $time
 	sleep 1
 done
